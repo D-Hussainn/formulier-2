@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: grey;
+    height: 10vh;
+    color: white;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    padding-top: 20px;
+    margin-top: 10px;
+    background-color: rgb(50, 50, 50);
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+
+.vraag{
+    margin-top: 135px;
+}
